@@ -1,0 +1,15 @@
+{
+  "name": "lotube",
+  "version": "1.0.0",
+  "description": "LoTube is a free video sharing website that makes it easy to watch online videos. You can even create and upload your own videos to share with others.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Harsh",
+  "license": "ISC"
+}
