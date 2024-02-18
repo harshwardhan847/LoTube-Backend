@@ -15,8 +15,13 @@ app.use(express.static("public"));
 app.use(cookieParser());
 
 //routes import
-import userRouter from "./routes/user.routes.js ";
+import userRouter from "./routes/user.routes.js";
 
 //routes declaration
 app.use("/api/v1/users", userRouter);
+
+app.get("/", (_, res) => {
+  console.log("welcome to LoTube");
+  res.send("welcome to LoTube");
+});
 export { app };
